@@ -1,0 +1,44 @@
+{
+  "name": "react-native-remote-image-view",
+  "version": "0.5.0",
+  "description": "TBD",
+  "scripts": {
+    "eslint": "eslint . --ext js",
+    "flow": "flow",
+    "lint": "npm run eslint",
+    "prettier": "find . -name \"*.js\" -not -path \"*/node_modules/*\" -not -path \"*/example/*\" | xargs prettier --single-quote --trailing-comma es5 --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maicki/react-native-remote-image-view.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "android",
+    "ios"
+  ],
+  "author": {
+    "name": "Michael Schneider",
+    "email": "mischneider1@gmail.com"
+  },
+  "license": "Apache 2.0",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-plugin-import": "^2.5.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-flowtype": "^2.34.0",
+    "eslint-plugin-prettier": "^2.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "flow-bin": "^0.48",
+    "prettier": "^1.4.4",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1"
+  }
+}
